@@ -91,10 +91,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E          &kp R    &kp T                                                &kp Y      &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D          &kp F    &kp G           &kp LS(LG(S))      &kp ESCAPE        &kp H      &kp J  &kp K      &kp L    &kp MINUS
-&mt CAPS Z        &kp X         &kp C          &kp V    &kp B           &kp ESCAPE         &kp BACKSPACE     &kp N      &kp M  &kp COMMA  &kp DOT  &kp F7
-&lt 3 LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_META  &kp TAB  &kp LANGUAGE_2  &lt 6 SPACE        &lt 2 LANGUAGE_1  &kp ENTER                             &kp LS(LC(LG(NUMBER_4)))
+&kp Q             &kp W         &kp E          &kp R    &kp T                                                  &kp Y      &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D          &kp F    &kp G             &kp LS(LG(S))      &kp ESCAPE        &kp H      &kp J  &kp K      &kp L    &kp MINUS
+&mt CAPS Z        &kp X         &kp C          &kp V    &kp B             &kp ESCAPE         &kp BACKSPACE     &kp N      &kp M  &kp COMMA  &kp DOT  &kp F7
+&lt 3 LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_META  &kp TAB  &lt 1 LANGUAGE_2  &lt 6 SPACE        &lt 2 LANGUAGE_1  &kp ENTER                             &kp LS(LC(LG(NUMBER_4)))
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -102,10 +102,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &kp F12
+&kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)                      &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)  &trans      &trans  &trans  &trans  &trans  &trans  &kp F10
+&kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)  &trans      &trans  &trans  &trans  &trans  &trans  &kp F11
+&trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans                          &kp F12
             >;
         };
 
